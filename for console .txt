@@ -1,0 +1,6 @@
+git-cmd.exe --no-cd --command=usr/bin/bash.exe -l -i 
+
+
+//ssh config 
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
