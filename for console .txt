@@ -4,3 +4,7 @@ git-cmd.exe --no-cd --command=usr/bin/bash.exe -l -i
 //ssh config 
 
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+eval $(ssh-agent -s)       or may use eval `ssh-agent -s`
+
+ssh-add ~/.ssh/id_rsa
